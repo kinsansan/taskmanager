@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task Manager</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<header><h1>タスク管理</h1></header>
+		締め切りは「2015/12/28」のように入力してください。<br><br>
+		タスク名:<input type="text" id="name" value="">
+		締切り:<input type="text" id="deadline" value="">
+		優先度:<select id="priority">
+		<option value="5">5</option>
+		<option value="4">4</option>
+		<option value="3">3</option>
+		<option value="2">2</option>
+		<option value="1">1</option>
+		</select>
+		<input type="submit" id="ans" value="送信"><br>
+		<span id="namesort" class="button">task名sort</span> <span id="datesort" class="button">日付sort</span> <span id="prioritysort" class="button">優先度sort</span>
+		<div id="output">
+		</div>
+	</body>
+</html>
